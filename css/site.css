@@ -13,3 +13,21 @@
 #lab_3 a {
   color: purple;
 }
+h1 {
+  color: red;
+  font-size: 200%
+}
+p {
+  font-family: "comic sans";
+  text-indent: 20px;1
+  margin-left: 10px;
+}
+#content {
+  background-color: :"ff0000";
+  width:500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px #ff0000;
+  font-size: 20px;
+}
