@@ -2,10 +2,77 @@
 <html>
 <head>
 	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" type="text/css" href="../css/lab.css">
 </head>
 <body>
+	<h1> Challenges</h1>
+	<p>My biggest challenges in this lab was understanding the instructions, it's unclear as
+	to what we're supposed to be adding and using inside of our files. Other than that, this lab was
+	primarily focused on pseudocoding and getting a grasp at code before actual coding.</p>
+	<h1> Problems</h1>
+	<p>Problems we faced in this lab was figuring out an idea for the first and second task
+		 it was hard to brainstorm a good computer idea compared to thinking about an everyday task </p>
+	<h1>Results</h1>
+	<p>Here is our tortilla pseudocode. </p>
+	<img src = "img/homemade.png" width = 300 >
+	<p>Also our js file </p>
+	<img src = "img/jscode.png" width = 300>
+	<p>Finally, our pseudocode in comments below </p>
+		<pre>
+		//Print the Board before beach turn
+			//Make a board of eleven points connected by lines
+				//Create a 3 by 3 square
+				//Right and left side
+				//Connect with the middle circle
+				//Place three black dots in the left side of the square and one white on the right
+		//Accept user input
+					//Check for player input
+						//Each player moves respected dot
+							//Black dots move first
+								//Can only move forward and sideways
+									//Cannot move backwards
+									//Only once per turn
+							//White dot moves second
+								//White dot can move in any direction
+									//Only once per turn
+		//Validate user move
+			//Check players move
+				//Accept more if
+					//Black dot
+						//Moved only once
+						//moved forward or sideways
+						//Intended location as no other dot in it
+					//White dot
+						//moved in any direction
+						//Intended location as no other dot in it
+						//Its within one circle from itself
+				//Deny move
+					//Black dot
+						//Moved backwards
+						//Intended location has another dot in it
+						//Moved more than once spot
+					//White Dot
+						//Intended move it blocked
+						//Moving more than one space
+		//Playing
+			//Possible moves
+				//Black dot
+					//Can move forward or sideways
+				//White dot
+					//Can move an direction
+			//Turn taking
+				//Black dot begins
+				//White dot follows
+					//Continue playing alternating thereafter until the game ends
+		//Win Conditions
+			//There are no ties. One wins and the other loses
+				//Black dot
+					//Traps the white dot
+					//White dot is unable to legally move during a turn
+				//White Dot
+					//Passes the black dots reaching the opposite side of the board
+					//If Black dots do not move for 10 turns white dots win
+			</pre>
 
 </body>
 </html>
