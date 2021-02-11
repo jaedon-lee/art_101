@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 8 - Anon Functions and Callbacks</title>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src = "js/lab8.js"></script>
+</head>
+<body>
+	<div id = "content">
+	<h1> Lab 8: Anon Functions and Callbacks </h1>
+
+
+	<h2> Challenges</h2>
+	<p>Challenges for this lab was first understanding the set time out function and then
+	figuring out which variable was for the seconds. After that, the lab was fun.</p>
+	<h2>Problems </h2>
+	<p>Problems that I faced was understanding the syntax of the set time out function.  </p>
+	<h2>Results </h2>
+	<p>Here are the results of the code that I used for my index.html file. The js code is
+	printed in the console. Refresh to see the delays. </p>
+		<h2> Bonus Callback function</h2>
+		<button onclick = "myFunction()">Click </button>
+</div>
+<script>
+	var myVar;
+	function myFunction(){
+		myVar = setTimeout(hello, 3000);
+	}
+	function hello() {
+		alert("Hello!");
+	}
+	</script>
+</body>
+</html>
